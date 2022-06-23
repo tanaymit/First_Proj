@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+.top {
+    background-color: #FCF8E8;
+    position: relative;
+}
+.cloud {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-top-color: lightgrey;
+    border-top-width: 4px;
+    width: 5%;
+}
+h1 {
+    color: #DF7861;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto 0 auto;
+}
+h3 {
+    color: #94B49F;
+}
+.pfp {
+    border: solid;
+    border-color:  #94B49F;
+    border-radius: 100%;
+}
+span {
+    font-family: 'Sacramento', cursive;
+}
