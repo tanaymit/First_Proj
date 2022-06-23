@@ -12,17 +12,11 @@ body{
     top: 50px;
     left: 50px;
 }
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-top-color: lightgrey;
-    border-top-width: 4px;
-    width: 5%;
-}
 h1 {
     color: #DF7861;
-    font-family: 'Merriweather', serif;
+    font-family: 'Sacramento', cursive;
     margin: 0 auto 0 auto;
+    font-size: 4.5rem;
 }
 h3 {
     color: #94B49F;
@@ -32,6 +26,83 @@ h3 {
     border-color:  #94B49F;
     border-radius: 100%;
 }
-span {
-    font-family: 'Sacramento', cursive;
+.mid {
+    margin: 100px 0;
+}
+span{
+    text-decoration: underline;
+}
+.mid h2 {
+    color: #94B49F;
+}
+.mid h3 {
+    color:  #ECB390;
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+    text-align: left;
+}
+.code {
+    width: 20%;
+    float: left;
+    margin-right: 25px;
+}
+.medal {
+    width: 20%;
+    float: right;
+    margin-left: 25px;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+.message {
+    width: 50%;
+    margin: 40px auto 60px auto;
+}
+.btn {
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #DF7861;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #DF7861;
+    background-image: -webkit-linear-gradient(top, #DF7861, #ECB390);
+    background-image: -moz-linear-gradient(top, #DF7861, #ECB390);
+    background-image: -ms-linear-gradient(top, #DF7861, #ECB390);
+    background-image: -o-linear-gradient(top, #DF7861, #ECB390);
+    background-image: linear-gradient(to bottom, #DF7861, #ECB390);
+    text-decoration: none;
+  }
+.bottom {
+    background-color: #FCF8E8;
+    padding: 25px 0 25px;
+}
+a {
+    color: #ECB390;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: #94B49F;
+}
+.cpright {
+    color: #94B49F;
+    font-weight: bolder;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+p {
+    color: grey;
 }
